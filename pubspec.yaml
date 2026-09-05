@@ -1,0 +1,47 @@
+name: journly
+description: "A mental wellness and journaling application."
+publish_to: "none"
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^3.9.0
+  firebase_auth: ^5.3.4
+  cloud_firestore: ^5.6.5
+
+  # Local storage
+  shared_preferences: ^2.5.5
+
+  # UI and animations
+  avatar_glow: ^3.0.1
+  flutter_colorpicker: ^1.1.0
+  animated_text_kit: ^4.2.2
+  carousel_slider: ^5.0.0
+  table_calendar: ^3.0.0
+  flutter_animate: ^4.5.2
+  auto_size_text: ^3.0.0
+  typewritertext: ^3.0.9
+
+  # Charts
+  syncfusion_flutter_charts: ^34.2.3
+
+  #others
+  saver_gallery: ^4.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/forest/

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "806176960963",
+    "project_id": "project1-32aae",
+    "storage_bucket": "project1-32aae.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806176960963:android:369ec3db21631d68becd76",
+        "android_client_info": {
+          "package_name": "com.example.journly"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkJ-3bk01duo6ebGYuGQcZVdS7e2ZwaNM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
