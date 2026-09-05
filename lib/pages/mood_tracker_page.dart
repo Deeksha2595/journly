@@ -22,31 +22,31 @@ class _MoodTrackPageState extends State<MoodTrackPage> {
       category: 'Excited',
       score: 5,
       color: Colors.orangeAccent,
-      emoji: 'Ã°Å¸Â¤Â©',
+      emoji: '🤩',
     ),
     _MoodDefinition(
       category: 'Happy',
       score: 4,
       color: Colors.blueAccent,
-      emoji: 'Ã°Å¸ËœÅ ',
+      emoji: '😊',
     ),
     _MoodDefinition(
       category: 'Neutral',
       score: 3,
       color: Colors.green,
-      emoji: 'Ã°Å¸ËœÂ',
+      emoji: '😐',
     ),
     _MoodDefinition(
       category: 'Sad',
       score: 2,
       color: Colors.grey,
-      emoji: 'Ã°Å¸ËœÂ¢',
+      emoji: '😢',
     ),
     _MoodDefinition(
       category: 'Angry',
       score: 1,
       color: Colors.redAccent,
-      emoji: 'Ã°Å¸ËœÂ¡',
+      emoji: '😡',
     ),
   ];
 
@@ -293,13 +293,13 @@ class _MoodTrackPageState extends State<MoodTrackPage> {
   String get _chartTitle {
     switch (_selectedPeriod) {
       case MoodPeriod.sevenDays:
-        return 'Mood Analysis Ã¢â‚¬â€ Last 7 Days';
+        return 'Mood Analysis — Last 7 Days';
 
       case MoodPeriod.thirtyDays:
-        return 'Mood Analysis Ã¢â‚¬â€ Last 30 Days';
+        return 'Mood Analysis — Last 30 Days';
 
       case MoodPeriod.allTime:
-        return 'Mood Analysis Ã¢â‚¬â€ All Time';
+        return 'Mood Analysis — All Time';
     }
   }
 
@@ -371,7 +371,7 @@ class _MoodTrackPageState extends State<MoodTrackPage> {
           mainAxisSize: MainAxisSize.min,
           children: [
             const Text(
-              'Ã°Å¸â€œÅ ',
+              '📊',
               style: TextStyle(fontSize: 65),
             ),
             const SizedBox(height: 12),
